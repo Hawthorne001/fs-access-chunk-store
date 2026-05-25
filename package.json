@@ -36,5 +36,10 @@
   },
   "scripts": {
     "test": "standard"
+  },
+  "renovate": {
+    "extends": [
+      "github>webtorrent/renovate-config"
+    ]
   }
 }
